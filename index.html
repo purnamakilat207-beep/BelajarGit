@@ -209,6 +209,8 @@
 
         </div>
 
+  
+
     </section>
 
 
@@ -255,3 +257,32 @@
         </form>
 
     </section>
+
+
+        <script>
+
+        // Mengambil elemen form
+        const form = document.getElementById("contactForm");
+
+        // Menambahkan interaksi submit
+        form.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            alert("Terima kasih! Pesan kamu berhasil disiapkan.");
+
+            form.reset();
+
+        });
+
+    </script>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 TechNova. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
